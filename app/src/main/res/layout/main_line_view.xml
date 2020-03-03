@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    tools:context=".views.RecyclerViewActivity">
+
+    <TextView
+        android:id="@+id/item_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="2"
+        android:textSize="10sp"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        tools:text="description_item" />
+
+    <!--android:textSize="20sp"-->
+    <TextView
+        android:id="@+id/item_weekday"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10sp"
+        android:layout_marginStart="16dp"
+        android:layout_weight="2"
+        android:textColor="@color/colorWhite"
+        android:textStyle="bold"
+        tools:text="day_item"
+        />
+
+    <ImageButton
+        android:id="@+id/button_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="8dp"
+        android:contentDescription="@string/image_button_add"
+        android:src="@drawable/baseline_update_black_18dp" />
+
+    <ImageButton
+        android:id="@+id/button_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/baseline_delete_sweep_black_18dp"
+
+        android:contentDescription="@string/button_delete_description" />
+
+    </LinearLayout>

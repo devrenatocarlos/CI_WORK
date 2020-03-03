@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Android Avançado</string>
+    <string name="edit_text_view_item_activity">Atividade</string>
+    <string name="recicler_view_item_name">Nome</string>
+    <string name="recicler_view_description_title">Descrição</string>
+    <string name="recycler_view_date_title">Data</string>
+    <string-array name="recycler_view_weekday">
+        <item>Segunda-Feira</item>
+        <item>Terça-Feira</item>
+        <item>Quarta-Feira</item>
+        <item>Quinta-Feira</item>
+        <item>Sexta-feira</item>
+        <item>Sábado</item>
+        <item>Domingo</item>
+    </string-array>
+    <string name="app_main_activity_title"> DevApps 2019.2 </string>
+
+    <string name="app_activity_register"> Cadastre-se </string>
+    <string name="image_button_add"> Adicionar atividade</string>
+
+    <string name="app_activity_login"> Login </string>
+
+    <string name="app_activity_result"> Saída  </string>
+
+    <string name="app_activity_user"> Usuário  </string>
+
+    <string name="app_activity_recycler_view"> Lista </string>
+
+    <string name="field_name"> Nome</string>
+    <string name="field_cpf"> CPF</string>
+    <string name="field_login"> Login</string>
+    <string name="field_password"> Senha</string>
+
+    <string name="edit_field_user"> Usuário</string>
+
+    <string name="button_delete_description"> Deletar item </string>
+    <string name="button_cancel_text"> Cancelar </string>
+    <string name="button_confirm_text"> Confirmar </string>
+    <string name="title_activity_maps">Map</string>
+
+</resources>
