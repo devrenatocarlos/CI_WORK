@@ -107,7 +107,7 @@ def variants() {
 }
 
 coveralls {
-    jacocoReportPath = "$buildDir/reports/jacoco/jacocoProdDebugReport/jacocoProdDebugReport.xml"
+    jacocoReportPath = "$buildDir/customJacocoReportDir/jacocoDebugReport/jacocoDebugReport.xml"
 }
 //task jacocoTestReport(type: JacocoReport, dependsOn: 'testDebugUnitTest') {
 //
